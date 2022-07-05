@@ -153,41 +153,66 @@ This is 2nd menu
 
 
 
-{/* <li className="carto" style={{textAlign:'', pointerEvents:'none'}}>
+<li className="carto" style={{textAlign:'', pointerEvents:''}}>
               <Link className="navbar-item txtshadow" to="/about/">
 
               About Us
 
               </Link>
-      </li>  */}
+      </li> 
 
 
 
 <li className="carto" style={{textAlign:'', pointerEvents:''}}>
       <Link className="navbar-item txtshadow" to="/minutes/">
 
-      Latest Posts
+     Our Latest
 
         </Link>
 </li>
+
+
+<li className="carto" style={{textAlign:'', pointerEvents:''}}>
+              <Link className="navbar-item txtshadow" to="/about/">
+
+           +   New Roof Installations
+              </Link>
+      </li>
+
+
+      <li className="carto" style={{textAlign:'', pointerEvents:''}}>
+              <Link className="navbar-item txtshadow" to="/about/">
+
+           +  Re-Roofs
+              </Link>
+      </li>
+
+
+      <li className="carto" style={{textAlign:'', pointerEvents:''}}>
+              <Link className="navbar-item txtshadow" to="/about/">
+
+              Satisfied Customers
+              </Link>
+      </li>
+
+
 
 <li className="carto" style={{textAlign:'', pointerEvents:''}}>
       <Link className="navbar-item txtshadow" to="/minutes/">
 
-      Archived Posts
-
+      Learn More
         </Link>
 </li>
 
 
 
-{/* <li className="carto" style={{textAlign:'', pointerEvents:''}}>
+<li className="carto" style={{textAlign:'', pointerEvents:''}}>
       <Link state={{modal: true}} className="navbar-item txtshadow" to="/contact/">
 
       Contact Us
 
         </Link>
-</li> */}
+</li>
 
 
 

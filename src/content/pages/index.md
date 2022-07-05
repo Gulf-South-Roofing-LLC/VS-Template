@@ -25,8 +25,10 @@ svgzindex: ""
 youtubestart: ""
 ---
 
-<p>Awesomely powerful template for video blogs and other multimedia based websites</p>
+ LEADERS IN QUALITY COMMERCIAL AND RESIDENTIAL ROOFING
 
-<p>Let All In 60 assist you with bringing your product to market.</p>
+<p>Gulf South Roofing provides new roofs, and re-roofs to the Gulfport, MS area, Metro New Orleans, LA area, and Northshore, LA area.</p>
+
+<!-- <p>Let All In 60 assist you with bringing your product to market.</p> -->
 
 <!-- https://youtu.be/JOMipAq7ZSk -->
