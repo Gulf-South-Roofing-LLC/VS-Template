@@ -22,7 +22,7 @@ svgzindex: "0"
 comments: ""
 shareable: ""
 underlayImage: /assets/transparent.png
-featuredImage: /assets/roof-example1.jpg
+featuredImage: /assets/roof-example2.jpg
 svgImage: /assets/null.svg
 nftlink: ""
 nftdrop: ""
