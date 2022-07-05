@@ -6,7 +6,7 @@ import React from 'react'
 const Contact = class extends React.Component {
   render() {
     return (
-      <div className="wrapper" style={{padding:'0 10%', width:'800px', maxWidth:'600px', margin:'0 auto' }}>
+      <div className="wrapper" style={{padding:'0 10%', width:'', maxWidth:'', margin:'0 auto' }}>
       <form
         className="contact-form specialfont2"
         action="/thanks"

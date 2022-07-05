@@ -879,10 +879,16 @@ to="#experiences" title="See the new EXPERIENCES™" /> */}
 
       <div style={{margin:'0 30px', zIndex:'', borderRadius:'12px', maxHeight:'', overflow:'', position:'relative', display:'', justifyContent:'', alignItems:'', flexDirection:'column'}}>
    
-      <Contact />
 
-{/* 
-      <div style={{position:'relative', top:'', margin:'0', padding:'0',  width:'', zIndex:'1', textAlign:'', borderRadius:'12px',}}>
+
+
+ 
+<h2 style={{fontSize:'clamp(2rem, 5vw, 3rem)', textAlign:'center'}}>Contact Us</h2>
+<Contact />
+
+
+
+      {/* <div style={{position:'relative', top:'', margin:'0', padding:'0',  width:'', zIndex:'1', textAlign:'', borderRadius:'12px',}}>
   <Newsignup />
   <br />
   </div>
