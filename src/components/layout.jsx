@@ -153,20 +153,13 @@ This is 2nd menu
 
 
 
-<li className="carto" style={{textAlign:'', pointerEvents:''}}>
-              <Link className="navbar-item txtshadow" to="/about/">
-
-              About Us
-
-              </Link>
-      </li> 
 
 
 
 <li className="carto" style={{textAlign:'', pointerEvents:''}}>
       <Link className="navbar-item txtshadow" to="/minutes/">
 
-     Our Latest
+     Our Services
 
         </Link>
 </li>
@@ -175,7 +168,7 @@ This is 2nd menu
 <li className="carto" style={{textAlign:'', pointerEvents:''}}>
               <Link className="navbar-item txtshadow" to="/about/">
 
-           +   New Roof Installations
+           +   New Roofs
               </Link>
       </li>
 
@@ -200,9 +193,19 @@ This is 2nd menu
 <li className="carto" style={{textAlign:'', pointerEvents:''}}>
       <Link className="navbar-item txtshadow" to="/minutes/">
 
-      Learn More
+      Learn About Roofing 
         </Link>
 </li>
+
+
+
+<li className="carto" style={{textAlign:'', pointerEvents:''}}>
+              <Link className="navbar-item txtshadow" to="/about/">
+
+             Who We Are
+
+              </Link>
+      </li> 
 
 
 

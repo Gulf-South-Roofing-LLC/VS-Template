@@ -879,9 +879,9 @@ to="#experiences" title="See the new EXPERIENCES™" /> */}
 
       <div style={{margin:'0 30px', zIndex:'', borderRadius:'12px', maxHeight:'', overflow:'', position:'relative', display:'', justifyContent:'', alignItems:'', flexDirection:'column'}}>
    
+      <Contact />
 
-
-
+{/* 
       <div style={{position:'relative', top:'', margin:'0', padding:'0',  width:'', zIndex:'1', textAlign:'', borderRadius:'12px',}}>
   <Newsignup />
   <br />
@@ -896,7 +896,7 @@ to="#experiences" title="See the new EXPERIENCES™" /> */}
             />
           ) : (
             ""
-          )}
+          )} */}
 
 
 
@@ -1113,11 +1113,11 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 
 
 
-<div id="contact" className="" style={{position:'relative', zIndex:'2',
+{/* <div id="contact" className="" style={{position:'relative', zIndex:'2',
  width:'', maxWidth:'800px', display:'grid', placeContent:'center', padding:'0 10%', margin:'0 auto', marginTop:'10vh'}}>
 <h2 style={{fontSize:'clamp(2rem, 5vw, 3rem)', textAlign:'center'}}>Contact</h2>
 <Contact />
-</div>
+</div> */}
 
 
 
