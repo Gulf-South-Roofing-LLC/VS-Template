@@ -35,3 +35,4 @@ VidSocks are layered multimedia (including animation, cutouts, scenes, and video
 Each VidSock is uniquely created by the artist and then delivered to the world for their art to be altered and changed by its viewers thus making each VidSock truly dynamic.
 
 With each winning bid, you not only get to take home your new VidSock, but you will also get your very own copy of the VidSock NFT Marketing Platform™ to make and market your own VidSocks.
+Template1
