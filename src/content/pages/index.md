@@ -6,9 +6,9 @@ featuredImage: /assets/header.jpg
 secondaryImage: /assets/secondary.jpg
 underlayImage: /assets/transparent.png
 showInfo: true
-youtuber: "https://youtu.be/JOMipAq7ZSk"
+youtuber: "https://youtu.be/VFVMStfD1hw"
 youtubeautostart: "1"
-youtubeloop: ""
+youtubeloop: "1"
 title: Gulf South Roofing
 svgImage: /assets/null.svg
 showPosts: true
@@ -18,9 +18,9 @@ cta:
 youtubeend: ""
 showFeature: true
 nftredeem: ""
-youtubecontrols: ""
+youtubecontrols: "1"
 template: index-page
-youtubemute: "1"
+youtubemute: "0"
 svgzindex: ""
 youtubestart: ""
 ---
