@@ -117,6 +117,7 @@ This is 2nd menu
 {/* <img className="" src={iconimage} alt="Logo" style={{borderRadius:'12px'}} /> */}
 <Bug className="bug" style={{fontSize:'38px', maxWidth:'', opacity:'1', margin:'0 0 0 0', width:'100%', display:'block' }}/> 
 {/* <object className="" id="logo" data={iconimage} type="image/svg+xml" style={{  overflow:'hidden', border:'0px solid red', zIndex:'0', width:'100%', maxWidth:'', height:'', background:'transparent'  }} alt="Animated Logo" title="Animated Logo" >Animated Logo</object> */}
+ MENU
 </div>
   </label>
 

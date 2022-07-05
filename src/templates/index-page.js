@@ -310,7 +310,7 @@ function Iframer() {
 <ImPlay style={{margin:'0 auto', width:'50%', fontSize:'60px'}} />
       </div>
       </button>}
-        light="../assets/transparent.png"
+        light="../assets/header.jog"
     />
   )
 }
@@ -499,7 +499,7 @@ function Iframer() {
 
 
 
-  {/* {Image ? (
+  {Image ? (
   <GatsbyImage
               image={Image}
               loading="eager"
@@ -510,7 +510,7 @@ function Iframer() {
 
           ) : (
           ""
-          )} */}
+          )}
 
         
             <div style={{display:'grid', placeContent:'center', fontWeight:'bold', padding:'50% 0 0 0', fontSize:'clamp(2rem, 3.5vw, 3.8rem)', textShadow:'2px 2px 0 #111', width:'100%', position:'absolute', zIndex:'2', top:'', height:'100%', border:'1px solid transparent'}}>Learn more
@@ -886,7 +886,7 @@ to="#experiences" title="See the new EXPERIENCES™" /> */}
   <Newsignup />
   </div>
 
-           {/* {SecondaryImage ? (
+           {SecondaryImage ? (
             <GatsbyImage
               image={SecondaryImage}
               alt={frontmatter.title + " - Featured image"}
@@ -895,7 +895,7 @@ to="#experiences" title="See the new EXPERIENCES™" /> */}
             />
           ) : (
             ""
-          )} */}
+          )}
 
 
 

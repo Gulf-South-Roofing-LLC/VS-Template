@@ -1,15 +1,15 @@
 ---
 slug: /
-tagline: "All in 60 Seconds"
-description: "All in 60 Seconds"
-featuredImage: /assets/default-og-image.jpg
-secondaryImage: /assets/transparent.png
+tagline: "How to find the right Roofing Contractor"
+description: "Gulf South Roofing, LLC"
+featuredImage: /assets/header.jpg
+secondaryImage: /assets/secondary.jpg
 underlayImage: /assets/transparent.png
 showInfo: true
 youtuber: "https://youtu.be/JOMipAq7ZSk"
 youtubeautostart: "1"
 youtubeloop: ""
-title: All In 60
+title: Gulf South Roofing
 svgImage: /assets/null.svg
 showPosts: true
 cta:
