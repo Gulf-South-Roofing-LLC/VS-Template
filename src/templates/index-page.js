@@ -418,7 +418,7 @@ function Iframer() {
 
 
 
-<div className="horizontal-scroll panels" style={{}}>
+<div className="horizontal-scroll panels horizontal-scroll-wrapper" style={{}}>
 
 
 
@@ -663,7 +663,7 @@ alt="" src="../../static/assets/HICKORY-SMOKED-OF-WS.jpg" />
 <div>
 </div>
 
-<div className="allin60panel" style={{position:'', border:'0px solid yellow', display:'none', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'100vw', height:'100%', margin:'0', background:''}}>
+<div className="allin60panel" style={{position:'', border:'0px solid yellow', display:'', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'100vw', height:'100%', margin:'0', background:''}}>
 <div style={{ width:'90vw', position:'relative', top:'', margin:'20px auto', padding:'4% 5%', zIndex:'3', textAlign:'', borderRadius:'12px', textDecoration:'none', color:'#cccc'}}>
   <Newsignup />
   </div>
@@ -774,6 +774,8 @@ alt="" src="../../static/assets/HICKORY-SMOKED-OF-WS.jpg" />
 
 
 
+
+
       </div>
   </article>
 </section>
@@ -800,34 +802,42 @@ alt="" src="../../static/assets/HICKORY-SMOKED-OF-WS.jpg" />
       <div className="flexcheek " style={{padding:'0 2rem 0 2rem', maxHeight:'',}}>
 
 
-      <h1 className="title1" style={{fontSize:'clamp(2rem, 5vw, 3rem)', textAlign:'left', marginLeft:''}}>
+      <h1 className="title1" style={{fontSize:'clamp(1.5rem, 4vw, 2.5rem)', textAlign:'left', marginLeft:''}}>
             {frontmatter.title}
             {/* Today's Popular Subjects <br /> */}
             {/* The Rack House */}
           </h1>
           <h2
             className="tagline1"
-            sx={{
-              color: "",
-            }}
+            style={{padding:'0  0', fontSize:'clamp(1.5rem, 4vw, 2.5rem)', textAlign:'left', marginLeft:''}}
+            
           >
             {frontmatter.tagline}
           </h2>
 
 
 
-
+          <br />
+<br />
 
           <div
-          style={{padding:'0', fontSize:'clamp(1rem, 2vw, 2.8rem)',}}
+          style={{padding:'0',}}
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
 
 
   
+We’re the Coast's premier roofing company serving residential and commercial clients all along the Coast. Our team is experienced and professional.
+<br /><br />
+We have the knowledge and expertise to helo you get the most from your roof. Whether you require repairs or installation, we’re here to help.
+<br /><br />
+We'd love to help you with roof inspections, gutter repair and installation, metal roofing, TPO roofing, repair, and installation services.
 
-          <Link state={{modal: true}} 
+
+<br />
+<br />
+          {/* <Link state={{modal: true}} 
             to={frontmatter.cta.ctaLink}
             className="button fire actionJackson specialfont"
             style={{
@@ -842,11 +852,8 @@ alt="" src="../../static/assets/HICKORY-SMOKED-OF-WS.jpg" />
             }}
           >
             {frontmatter.cta.ctaText}
-   
 
-            
-
-          </Link>
+          </Link> */}
 
          
 
@@ -1194,6 +1201,10 @@ By Appointment
     <br />
 
     Gulf South Roofing provides new roofs, and re-roofs to the Gulfport, MS area, Metro New Orleans, LA area, and Northshore, LA area.
+    <br /><br />
+
+    Alabama COMING SOON!
+
     {/* <br /><br />
     <div style={{textAlign:'center',}}><a className="post-card button " href="https://toddlambert.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>ToddLambert.com</a></div> */}
     </div>
@@ -1202,11 +1213,14 @@ By Appointment
     <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'start', textAlign:'center'}}>
 
    
-    <h2>Phone Numbers</h2>
+    <h2>Call Us</h2>
     <br />
-Main: (228) 231-1630<br />
-Local: (228) 231-1630<br />
-Alternate: (504) 901-1599<br />
+<br />
+<a class="call-button btn" style={{fontSize:'200%'}} href="tel:2282311630">(228) 231-1630</a>
+
+{/* <a class="call-button btn" href="tel:2282311630">Local: (228) 231-1630</a>
+
+Alternate: (504) 901-1599<br /> */}
 {/* <br />
 gulfsouthroofs@gmail.com */}
 

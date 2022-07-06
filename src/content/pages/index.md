@@ -25,7 +25,9 @@ svgzindex: ""
 youtubestart: "732"
 ---
 
- LEADERS IN QUALITY COMMERCIAL AND RESIDENTIAL ROOFING
+
+
+ Leaders in quality commercial and residential roofing.
 
 <p>Gulf South Roofing provides new roofs, and re-roofs to the Gulfport, MS area, Metro New Orleans, LA area, and Northshore, LA area.</p>
 
