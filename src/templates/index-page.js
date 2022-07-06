@@ -15,7 +15,7 @@ import BlogListHome from "../components/blog-list-home"
 import Newsignup from "../components/newssign"
 // import Details from "../components/equipment-list"
 import Contact from "../components/Contact-inc"
-import SocialMe from "../components/share"
+// import SocialMe from "../components/share"
 // import FrontLoader from "../../static/assets/grid-loader.svg"
 // import { RiArrowRightSLine } from "react-icons/ri"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
@@ -1230,8 +1230,8 @@ gulfsouthroofs@gmail.com */}
 
 
 
-<br /><br />
-<SocialMe />
+{/* <br /><br />
+<SocialMe /> */}
 </div>
 
 <div className="spacer33"></div>
