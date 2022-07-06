@@ -6,8 +6,8 @@ featuredImage: /assets/header.jpg
 secondaryImage: /assets/secondary.jpg
 underlayImage: /assets/transparent.png
 showInfo: true
-youtuber: "https://youtu.be/VFVMStfD1hw"
-youtubeautostart: "1"
+youtuber: "https://youtu.be/dLX8_kMOkA8"
+youtubeautostart: ""
 youtubeloop: "1"
 title: Gulf South Roofing
 svgImage: /assets/null.svg
@@ -18,11 +18,11 @@ cta:
 youtubeend: ""
 showFeature: true
 nftredeem: ""
-youtubecontrols: "1"
+youtubecontrols: ""
 template: index-page
-youtubemute: "0"
+youtubemute: "1"
 svgzindex: ""
-youtubestart: ""
+youtubestart: "732"
 ---
 
  LEADERS IN QUALITY COMMERCIAL AND RESIDENTIAL ROOFING

@@ -224,9 +224,9 @@ const HomePage = ({ data }) => {
 
     const [state] = useState({
       playing: true,
-      controls: false,
-      light: true,
-      muted: true,
+      controls: true,
+      light: false,
+      muted: false,
       loop: true,
     });
     const playerRef = useRef(null);
@@ -466,7 +466,7 @@ function Iframer() {
                 },
               },
               youtube: {
-                playerVars: { showinfo:0, autoplay:1, controls:0, start:10, end:2000, mute:1  }
+                playerVars: { showinfo:0, autoplay:1, controls:0, start:732, end:2000, mute:1  }
               },
             }}
 
