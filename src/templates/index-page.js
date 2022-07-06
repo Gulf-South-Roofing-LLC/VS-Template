@@ -1140,7 +1140,7 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 
 
 
-<div style={{position:'relative', top:'', margin:'1vh 0 10vh 0', padding:'10vh 0',  width:'100%', height:'', border:'0px solid #333'}}>
+<div style={{position:'relative', top:'', margin:'1vh 0 0 0', padding:'10vh 0',  width:'100%', height:'', border:'0px solid #333'}}>
 {/* <img className="homepage-bg" src="assets/serving-the-coast.jpg" width="100%" height="100%" alt="VidSock" style={{ width:'100%', maxWidth:'100vw', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} /> */}
 
 <StaticImage src="../../static/assets/serving-the-coast.jpg" alt="Twilightscapes Default Image" style={{height:'100%', maxHeight:'100vh', position:'relative', zIndex:'0', top:'0', border:'0px solid !important', objectFit:'contain',}} />
@@ -1161,7 +1161,7 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 {/* <h3 style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)', margin:'0 auto 2rem auto'}}>Todd's Other Work</h3> */}
  
  <div className="flexbutt noexit print" style={{
-position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px', margin:'0 auto 2rem auto', padding:'2rem', background:'#333', color:'#fff'  }}>
+position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px', margin:'0 auto 0 auto', padding:'2rem', background:'#333', color:'#fff'  }}>
 
 
     
@@ -1234,7 +1234,7 @@ gulfsouthroofs@gmail.com */}
 <SocialMe /> */}
 </div>
 
-<div className="spacer33"></div>
+{/* <div className="spacer33"></div> */}
 <Footer />
     </Layout>
   )
