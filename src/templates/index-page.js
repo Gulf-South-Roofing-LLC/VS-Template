@@ -310,7 +310,7 @@ function Iframer() {
 <ImPlay style={{margin:'0 auto', width:'50%', fontSize:'60px'}} />
       </div>
       </button>}
-        light="../assets/header.jog"
+        light="../assets/header.jpg"
     />
   )
 }
@@ -1133,7 +1133,7 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 
 
 <div style={{position:'relative', top:'', margin:'20vh 0 40vh 0', padding:'0',  width:'100%', height:'30vh', border:'1px solid #333'}}>
-<img className="homepage-bg" src="assets/serving-the-coast.jpg" width="100vw" height="" alt="VidSock" style={{ width:'100%', maxWidth:'100vw', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} />
+<img className="homepage-bg" src="assets/serving-the-coast.jpg" width="100%" height="100%" alt="VidSock" style={{ width:'100%', maxWidth:'100vw', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} />
 
 <br />
 <SocialMe />
