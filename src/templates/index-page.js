@@ -472,11 +472,11 @@ function Iframer() {
 
             playsinline
             playIcon={
-              <button aria-label="Click To Play" className="clickplay" style={{position:'absolute', zIndex:'5', top:'0', border:'1px solid transparent', width:'100vw', height:'100%', background:'', color:'', fontSize:'18px', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'', justifyContent:'center', alignItem:'center', paddingTop:''}}>
+              <button aria-label="Click To Play" className="clickplay" style={{position:'absolute', zIndex:'5', top:'', border:'1px solid transparent', width:'100vw', height:'', background:'', color:'', fontSize:'18px', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'', justifyContent:'center', alignItem:'center', paddingTop:''}}>
 
             
   
-            <div style={{position:'fixed', width:'100vw', height:'', top:'5px', margin:'0', zIndex:'1', display:'flex', justifyContent:'center', background:'transparent !important',}}>
+            <div style={{position:'fixed', width:'100vw', height:'', top:'', margin:'0', zIndex:'1', display:'flex', justifyContent:'center', background:'transparent !important',}}>
     {/* <img className="homepage-bg" src="../../assets/daniel-smyth-PcvlAQKAPXk-unsplash.jpg" alt="Hytron" style={{ width:'100%', height:'100vh', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} /> */}
 
     {/* <StaticImage placeholder="blurred" loading="eager" src="../../static/assets/daniel-smyth-PcvlAQKAPXk-unsplash.jpg" alt="Twilightscapes Default Image" style={{ width:'100%', height:'100%', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} /> */}
@@ -701,7 +701,7 @@ alt="" src="../../static/assets/HICKORY-SMOKED-OF-WS.jpg" />
 <section style={{ display:'',}}>
   <article>
 
-  <div className='stack-layout' style={{ display:'', position:'relative', top:'0', zIndex:'0', height:'', overflow:'hidden', filter: 'drop-shadow(0 0 20px #000)' }}>
+  <div className='stack-layout' style={{ display:'', position:'relative', top:'', zIndex:'0', height:'', overflow:'hidden', filter: 'drop-shadow(0 0 20px #000)' }}>
 
 
 
@@ -711,7 +711,7 @@ alt="" src="../../static/assets/HICKORY-SMOKED-OF-WS.jpg" />
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image1 layer1"
-              style={{height:'auto', width:'100vw', maxHeight:'', position:'absolute', top:'', zIndex:'0', objectFit:'contain', overflow:'', border:'0px solid red !important'}}
+              style={{height:'100%', width:'100vw', maxHeight:'', position:'absolute', top:'', zIndex:'0', objectFit:'contain', overflow:'', border:'0px solid red !important'}}
             />
             
           ) : (
@@ -1140,14 +1140,12 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 
 
 
-<div style={{position:'relative', top:'', margin:'20vh 0 40vh 0', padding:'0',  width:'100%', height:'30vh', border:'1px solid #333'}}>
+<div style={{position:'relative', top:'', margin:'1vh 0 10vh 0', padding:'10vh 0',  width:'100%', height:'', border:'0px solid #333'}}>
 {/* <img className="homepage-bg" src="assets/serving-the-coast.jpg" width="100%" height="100%" alt="VidSock" style={{ width:'100%', maxWidth:'100vw', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} /> */}
 
-<StaticImage src="../../static/assets/serving-the-coast.jpg" alt="Twilightscapes Default Image" style={{height:'100vh', maxHeight:'100vh', position:'relative', zIndex:'0', top:'0', border:'0px solid !important', objectFit:'cover',}} />
+<StaticImage src="../../static/assets/serving-the-coast.jpg" alt="Twilightscapes Default Image" style={{height:'100%', maxHeight:'100vh', position:'relative', zIndex:'0', top:'0', border:'0px solid !important', objectFit:'contain',}} />
 
-<br />
-<SocialMe />
-</div>
+
 
 
 
@@ -1159,7 +1157,82 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 
 
 
-<div className="spacer99"></div>
+
+{/* <h3 style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)', margin:'0 auto 2rem auto'}}>Todd's Other Work</h3> */}
+ 
+ <div className="flexbutt noexit print" style={{
+position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px', margin:'0 auto 2rem auto', padding:'2rem', background:'#333' }}>
+
+
+    
+    <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'space-between', textAlign:'center'}}>
+
+    <h2>Hours</h2>
+    Mon - Fri
+ 8:00 am - 4:00 pm
+<br />
+Sat
+Closed<br />
+Sun
+Closed<br />
+<br />
+Appointments available for evenings and weekends.
+    {/* <br /><br />
+    <div style={{textAlign:'center',}}><a className="post-card button " href="https://urbanfetish.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>UrbanFetish.com</a></div> */}
+    </div>
+
+
+
+
+
+<div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'space-between', textAlign:'center'}}>
+    {/* <a className="noexit" href="https://toddlambert.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>
+    <StaticImage src="../../static/assets/toddlambert-promo-banner.png" alt="Todd Lambert is an independent artist, creator, design, developer and generally a unicorn" style={{borderRadius:'8px'}}  /></a>
+    <br /> */}
+    <h2>Service Area</h2>
+Gulf Coast and Surrounding Areas
+Metro New Orleans and Surrounding Areas
+Northshore and Surrounding Areas
+    {/* <br /><br />
+    <div style={{textAlign:'center',}}><a className="post-card button " href="https://toddlambert.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>ToddLambert.com</a></div> */}
+    </div>
+
+
+    <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'space-between', textAlign:'center'}}>
+
+   
+    <h2>PHONE / EMAIL</h2>
+Main: (228) 231-1630<br />
+Local: (228) 231-1630<br />
+Alternate: (504) 901-1599<br />
+{/* <br />
+gulfsouthroofs@gmail.com */}
+
+    {/* <br /><br />
+    <div style={{textAlign:'center',}}><a className="post-card button " href="https://vidsocks.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>VidSocks.com</a></div> */}
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<br /><br />
+<SocialMe />
+</div>
+
+<div className="spacer33"></div>
 <Footer />
     </Layout>
   )
