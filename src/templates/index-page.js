@@ -1170,13 +1170,14 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
     <h2>Hours</h2>
     <br />
 
-    Mon - Fri
+    Mon - Fri : &nbsp;
  8:00 am - 4:00 pm
 <br />
-Sat &amp Sun
+Sat &amp; Sun : &nbsp;
 Closed<br />
-<br />
-Appointments available for evenings and weekends.
+
+Evenings and Weekends :<br />
+By Appointment
     {/* <br /><br />
     <div style={{textAlign:'center',}}><a className="post-card button " href="https://urbanfetish.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>UrbanFetish.com</a></div> */}
     </div>
@@ -1192,9 +1193,7 @@ Appointments available for evenings and weekends.
     <h2>Service Area</h2>
     <br />
 
-Gulf Coast and Surrounding Areas
-Metro New Orleans and Surrounding Areas
-Northshore and Surrounding Areas
+    Gulf South Roofing provides new roofs, and re-roofs to the Gulfport, MS area, Metro New Orleans, LA area, and Northshore, LA area.
     {/* <br /><br />
     <div style={{textAlign:'center',}}><a className="post-card button " href="https://toddlambert.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>ToddLambert.com</a></div> */}
     </div>
@@ -1203,7 +1202,7 @@ Northshore and Surrounding Areas
     <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'start', textAlign:'center'}}>
 
    
-    <h2>PHONE / EMAIL</h2>
+    <h2>Phone Numbers</h2>
     <br />
 Main: (228) 231-1630<br />
 Local: (228) 231-1630<br />
