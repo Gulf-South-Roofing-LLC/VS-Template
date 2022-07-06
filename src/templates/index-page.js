@@ -512,7 +512,7 @@ function Iframer() {
               image={Image}
               alt={frontmatter.title + " - Featured image"}
               className="featured-image1 layer1"
-              style={{height:'100vh', width:'100vw', maxHeight:'', position:'absolute', top:'0', zIndex:'0', objectFit:'cover', overflow:'', border:'0px solid red !important'}}
+              style={{height:'100vh', width:'100vw', maxHeight:'', position:'absolute', top:'0', zIndex:'3', objectFit:'cover', overflow:'', border:'0px solid red !important'}}
             />
 
           ) : (
