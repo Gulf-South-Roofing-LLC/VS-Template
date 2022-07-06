@@ -1161,19 +1161,19 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 {/* <h3 style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)', margin:'0 auto 2rem auto'}}>Todd's Other Work</h3> */}
  
  <div className="flexbutt noexit print" style={{
-position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px', margin:'0 auto 2rem auto', padding:'2rem', background:'#333' }}>
+position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px', margin:'0 auto 2rem auto', padding:'2rem', background:'#333',  }}>
 
 
     
-    <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'space-between', textAlign:'center'}}>
+    <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'start', textAlign:'center'}}>
 
     <h2>Hours</h2>
+    <br />
+
     Mon - Fri
  8:00 am - 4:00 pm
 <br />
-Sat
-Closed<br />
-Sun
+Sat &amp Sun
 Closed<br />
 <br />
 Appointments available for evenings and weekends.
@@ -1185,11 +1185,13 @@ Appointments available for evenings and weekends.
 
 
 
-<div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'space-between', textAlign:'center'}}>
+<div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'start', textAlign:'center'}}>
     {/* <a className="noexit" href="https://toddlambert.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>
     <StaticImage src="../../static/assets/toddlambert-promo-banner.png" alt="Todd Lambert is an independent artist, creator, design, developer and generally a unicorn" style={{borderRadius:'8px'}}  /></a>
     <br /> */}
     <h2>Service Area</h2>
+    <br />
+
 Gulf Coast and Surrounding Areas
 Metro New Orleans and Surrounding Areas
 Northshore and Surrounding Areas
@@ -1198,10 +1200,11 @@ Northshore and Surrounding Areas
     </div>
 
 
-    <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'space-between', textAlign:'center'}}>
+    <div className="flexcheek network" style={{height:'', margin:'', display:'flex', flexDirection:'column', justifyContent:'start', textAlign:'center'}}>
 
    
     <h2>PHONE / EMAIL</h2>
+    <br />
 Main: (228) 231-1630<br />
 Local: (228) 231-1630<br />
 Alternate: (504) 901-1599<br />

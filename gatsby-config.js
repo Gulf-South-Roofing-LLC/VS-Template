@@ -214,8 +214,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://rackhouse.netlify.app',
-        sitemap: 'https://rackhouse.netlify.app/sitemap.xml',
+        host: 'https://gulfsouth.netlify.app',
+        sitemap: 'https://gulfsouth.netlify.app/sitemap.xml',
         resolveEnv: () => process.env.GATSBY_ENV,
         env: {
           development: {
@@ -230,10 +230,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `The Rack House Steaks & Spirits`,
-        short_name: `RackHouse`,
+        name: `Gulf South Roofing`,
+        short_name: `Gulf South`,
         start_url: `/?user_mode=app`,
-        description: `The Rack House`,
+        description: `Gulf South Roofing, LLC`,
         background_color: `#111`,
         lang: `en`,
         theme_color: `#111`,
