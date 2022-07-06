@@ -310,7 +310,7 @@ function Iframer() {
 <ImPlay style={{margin:'0 auto', width:'50%', fontSize:'60px'}} />
       </div>
       </button>}
-        light="../assets/header.jpg"
+        light="../assets/header.webp"
     />
   )
 }
