@@ -1,16 +1,16 @@
 ---
 template: blog-post
 title: About The VidSock Platform
-slug: /VidSockPlatform
+slug: /postthree
 date: 2021-08-12 10:43
 description: Learn More About The VidSock Platform
-youtuber: ""
+youtuber: "https://youtu.be/dLX8_kMOkA8"
 youtuber2: ""
 youtubeshoworiginal: ""
 youtubersuggestion1: ""
 youtubersuggestion2: "https://youtu.be/UfWnQuAxa5Y"
 youtubersuggestion3: "https://youtu.be/LE5m5aawuao"
-youtubestart: ""
+youtubestart: "732"
 youtubeend: ""
 youtubemute: ""
 audiostart: "33"
