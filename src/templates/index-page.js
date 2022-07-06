@@ -7,7 +7,7 @@ import { Footer } from "../components/footer";
 import { Seo } from "../components/seo"
 import { ImPlay } from "react-icons/im"
 import { GatsbyImage } from "gatsby-plugin-image"
-// import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 // import Controls from "../components/Controls";
 import { Helmet } from "react-helmet"
 import { getSrc } from "gatsby-plugin-image"
@@ -500,12 +500,19 @@ function Iframer() {
 
 
   {Image ? (
+  // <GatsbyImage
+  //             image={Image}
+  //             loading="eager"
+  //             alt={frontmatter.title + " - Featured image"}
+  //             className="featured-image1 layer1"
+  //             style={{height:'100vh', width:'100vw', maxHeight:'', position:'absolute', top:'0', zIndex:'', objectFit:'cover', overflow:'', backgroundSize:'cover', border:'0px solid red !important', background:'#111', aspectRatio:'none'}}
+  //           />
+
   <GatsbyImage
               image={Image}
-              loading="eager"
               alt={frontmatter.title + " - Featured image"}
               className="featured-image1 layer1"
-              style={{height:'100vh', width:'100vw', maxHeight:'', position:'absolute', top:'0', zIndex:'', objectFit:'cover', overflow:'', backgroundSize:'cover', border:'0px solid red !important', background:'#111', aspectRatio:'none'}}
+              style={{height:'100vh', width:'100vw', maxHeight:'', position:'relative', top:'', zIndex:'0', objectFit:'cover', overflow:'', border:'0px solid red !important'}}
             />
 
           ) : (
@@ -1133,7 +1140,9 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 
 
 <div style={{position:'relative', top:'', margin:'20vh 0 40vh 0', padding:'0',  width:'100%', height:'30vh', border:'1px solid #333'}}>
-<img className="homepage-bg" src="assets/serving-the-coast.jpg" width="100%" height="100%" alt="VidSock" style={{ width:'100%', maxWidth:'100vw', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} />
+{/* <StaticImage className="homepage-bg" src="assets/serving-the-coast.jpg" width="100%" height="100%" alt="VidSock" style={{ width:'100%', maxWidth:'100vw', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} /> */}
+
+<StaticImage src="../../static/assets/serving-the-coast.jpg" alt="Twilightscapes Default Image" style={{height:'auto', maxHeight:'100vh', position:'relative', zIndex:'0', top:'0', border:'0px solid !important', objectFit:'cover',}} />
 
 <br />
 <SocialMe />
