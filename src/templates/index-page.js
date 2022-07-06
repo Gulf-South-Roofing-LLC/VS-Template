@@ -1143,7 +1143,7 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 <div style={{position:'relative', top:'', margin:'20vh 0 40vh 0', padding:'0',  width:'100%', height:'30vh', border:'1px solid #333'}}>
 {/* <img className="homepage-bg" src="assets/serving-the-coast.jpg" width="100%" height="100%" alt="VidSock" style={{ width:'100%', maxWidth:'100vw', filter:'drop-shadow(2px 2px 2px #000)', background:'transparent !important',}} /> */}
 
-<StaticImage src="../../static/assets/serving-the-coast.jpg" alt="Twilightscapes Default Image" style={{height:'auto', maxHeight:'100vh', position:'relative', zIndex:'0', top:'0', border:'0px solid !important', objectFit:'cover',}} />
+<StaticImage src="../../static/assets/serving-the-coast.jpg" alt="Twilightscapes Default Image" style={{height:'100vh', maxHeight:'100vh', position:'relative', zIndex:'0', top:'0', border:'0px solid !important', objectFit:'cover',}} />
 
 <br />
 <SocialMe />
