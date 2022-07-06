@@ -137,11 +137,11 @@ This is 2nd menu
 
     <ul className="sidebarMenuInner post-card" style={{maxWidth:'400px', position:'absolute', right:'0', display:'', justifyContent:''}}>
 
-    <li className="carto" style={{border:'none', margin:' 0', textAlign:'center'}}>
+    {/* <li className="carto" style={{border:'none', margin:' 0', textAlign:'center'}}>
     <Link to="/" name="homereturn" title="return to home" style={{position:'absolute', display:'block', width:'180px', height:'150px', border:'0px solid'}}></Link>
 <Logo />
- </li>
-
+ </li> */}
+<br />
 
 
 
