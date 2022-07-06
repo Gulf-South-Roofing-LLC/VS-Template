@@ -297,7 +297,7 @@ function Iframer() {
     playing
     playsinline
       playIcon={
-        <button aria-label="Click To Play" className="clickplay" style={{position:'absolute', zIndex:'5', top:'0', border:'0px solid red', width:'100vw', height:'100%', background:'', color:'#fff', fontSize:'18px', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'center', justifyContent:'center', alignItem:'center', paddingTop:''}}>
+        <button aria-label="Click To Play" className="clickplay" style={{position:'absolute', zIndex:'5', top:'0', border:'0px solid red', width:'100vw', height:'100%', background:'', color:'#333', fontSize:'18px', textAlign:'center', display:'flex', flexDirection:'column', verticalAlign:'center', justifyContent:'center', alignItem:'center', paddingTop:''}}>
 
     <div className="" style={{ textAlign:'center', animation:'fadeIn 3s', width:'80vw', margin:'0 auto'}}>
     
@@ -513,7 +513,7 @@ function Iframer() {
           )}
 
         
-            <div style={{display:'grid', placeContent:'center', fontWeight:'bold', padding:'50% 0 0 0', fontSize:'clamp(2rem, 3.5vw, 3.8rem)', textShadow:'2px 2px 0 #111', width:'100%', position:'absolute', zIndex:'2', top:'', height:'100%', border:'1px solid transparent', color:'#fff'}}>Learn more
+            <div style={{display:'grid', placeContent:'center', fontWeight:'bold', padding:'50% 0 0 0', fontSize:'clamp(2rem, 3.5vw, 3.8rem)', textShadow:'2px 2px 0 #111', width:'100%', position:'absolute', zIndex:'2', top:'', height:'100%', border:'1px solid transparent', color:''}}>Learn more
 
     <ImPlay style={{margin:'0 auto', width:'50%', fontSize:'60px'}} /></div>
             {/* </div> */}
