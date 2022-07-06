@@ -78,13 +78,13 @@ const Foo = () => {
 <div style={{   background: 'transparent',
   borderRadius: "3",
   border: '0px solid red',
-  color: '#fff',
+  color: '#222',
   padding: '0 30px',
   display:'flex',
   flexDirection:'row',
   justifyContent:'center',
   alignItems:'center',
-  margin:'0 auto',}}>
+  marginTop:'-20px',}}>
    {/* Sharingbutton Facebook */}
         <a className="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Frackspace.netlify.app" target="_blank" rel="noreferrer" aria-label="Facebook">
           <div className="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium"><div aria-hidden="true" className="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
