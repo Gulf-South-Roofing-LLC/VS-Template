@@ -656,11 +656,11 @@ alt="" src="../../static/assets/HICKORY-SMOKED-OF-WS.jpg" />
 <div>
 </div>
 
-{/* <div className="allin60panel" style={{position:'', border:'0px solid yellow', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'100vw', height:'100%', margin:'0', background:''}}>
+<div className="allin60panel" style={{position:'', border:'0px solid yellow', display:'none', flexDirection:'column', justifyContent:'center', alignItems:'center', width:'100vw', height:'100%', margin:'0', background:''}}>
 <div style={{ width:'90vw', position:'relative', top:'', margin:'20px auto', padding:'4% 5%', zIndex:'3', textAlign:'', borderRadius:'12px', textDecoration:'none', color:'#cccc'}}>
   <Newsignup />
   </div>
-</div> */}
+</div>
 
 </div>
 
@@ -888,7 +888,7 @@ to="#experiences" title="See the new EXPERIENCES™" /> */}
 
 
 
-      {/* <div style={{position:'relative', top:'', margin:'0', padding:'0',  width:'', zIndex:'1', textAlign:'', borderRadius:'12px',}}>
+      <div style={{display:'none', position:'relative', top:'', margin:'0', padding:'0',  width:'', zIndex:'1', textAlign:'', borderRadius:'12px',}}>
   <Newsignup />
   <br />
   </div>
@@ -902,7 +902,7 @@ to="#experiences" title="See the new EXPERIENCES™" /> */}
             />
           ) : (
             ""
-          )} */}
+          )}
 
 
 
