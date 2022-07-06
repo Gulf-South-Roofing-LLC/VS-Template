@@ -1161,7 +1161,7 @@ position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px
 {/* <h3 style={{textAlign:'center', fontSize:'clamp(1.3rem, 1.1vw + 1.5rem, 3rem)', margin:'0 auto 2rem auto'}}>Todd's Other Work</h3> */}
  
  <div className="flexbutt noexit print" style={{
-position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px', margin:'0 auto 2rem auto', padding:'2rem', background:'#333',  }}>
+position:'relative', height:'', width:'', overflow:'', display:'flex', gap:'20px', margin:'0 auto 2rem auto', padding:'2rem', background:'#333', color:'#fff'  }}>
 
 
     
