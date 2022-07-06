@@ -48,7 +48,7 @@ module.exports = {
     resolve: "gatsby-plugin-web-font-loader",
     options: {
       custom: {
-        families: ['LibreBaskerville'],
+        families: ['Unpact'],
         urls: ['/assets/fonts/fonts.css'],
       },
     },
