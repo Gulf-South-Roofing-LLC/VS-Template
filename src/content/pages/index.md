@@ -6,7 +6,7 @@ featuredImage: /assets/header.jpg
 secondaryImage: /assets/secondary.jpg
 underlayImage: /assets/transparent.png
 showInfo: true
-youtuber: "https://youtu.be/dLX8_kMOkA8"
+youtuber: "https://youtu.be/ELwIDDplDgo"
 youtubeautostart: "1"
 youtubeloop: "1"
 title: Gulf South Roofing
@@ -15,14 +15,14 @@ showPosts: true
 cta:
   ctaText: Request Quote
   ctaLink: /contact/
-youtubeend: "1095"
+youtubeend: ""
 showFeature: true
 nftredeem: ""
 youtubecontrols: "0"
 template: index-page
 youtubemute: "1"
 svgzindex: ""
-youtubestart: "1080"
+youtubestart: "0"
 ---
 
 
@@ -34,3 +34,7 @@ youtubestart: "1080"
 <!-- <p>Let All In 60 assist you with bringing your product to market.</p> -->
 
 <!-- https://youtu.be/JOMipAq7ZSk -->
+
+<!-- https://youtu.be/ELwIDDplDgo -->
+
+<!-- https://youtu.be/dLX8_kMOkA8 -->

@@ -1,29 +1,29 @@
 ---
 template: blog-post
-title: About The VidSock Platform
-slug: /postthree
+title: Our Certifications
+slug: /certifications
 date: 2021-08-12 10:43
 description: Learn More About The VidSock Platform
-youtuber: "https://youtu.be/dLX8_kMOkA8"
+youtuber: "https://youtu.be/ELwIDDplDgo"
 youtuber2: ""
 youtubeshoworiginal: ""
 youtubersuggestion1: ""
 youtubersuggestion2: "https://youtu.be/UfWnQuAxa5Y"
 youtubersuggestion3: "https://youtu.be/LE5m5aawuao"
-youtubestart: "732"
-youtubeend: ""
+youtubestart: "1082"
+youtubeend: "1125"
 youtubemute: ""
-audiostart: "33"
-audioend: "3000"
-youtubecontrols: "0"
+audiostart: "0"
+audioend: ""
+youtubecontrols: "1"
 youtubeautostart: "1"
 isnftforsale: ""
 svgzindex: "0"
 comments: ""
-shareable: ""
+shareable: "1"
 underlayImage: /assets/transparent.png
 featuredImage: /assets/roof-example2.jpg
-svgImage: /assets/loader.svg
+svgImage: /assets/null.svg
 nftlink: ""
 nftdrop: ""
 nftredeem: ""
@@ -55,3 +55,7 @@ Built right in the right places. The site is built from the ground up to utelize
 Top Scores out of the box - Accessibility, SEO, Best Practices, oh.. and its a full-blown Web App too!
 
 Automated backups with intant rollbacks to any version. Site is automatically load-balanced and served from a Global Edge Network so your site is lightning fast no matter where your visitors come from.
+
+<!-- https://youtu.be/ELwIDDplDgo -->
+
+<!-- https://youtu.be/dLX8_kMOkA8 -->

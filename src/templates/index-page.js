@@ -480,7 +480,7 @@ function Iframer() {
                 },
               },
               youtube: {
-                playerVars: { showinfo:0, autoplay:1, controls:0, start:1080, end:1110, mute:1  }
+                playerVars: { showinfo:0, autoplay:1, controls:0, start:0, end:0, mute:1  }
               },
             }}
 
