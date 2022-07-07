@@ -1,16 +1,16 @@
 ---
 template: blog-post
-title: What Are VidSocks?
-slug: /whatarevidsocks
+title: Hurricane Season 2022
+slug: /hurricane-prep
 date: 2021-08-14 10:43
 description: Learn More About VidSocks
-youtuber: ""
+youtuber: "https://youtu.be/xsAVn-H5t7M"
 youtuber2: ""
 youtubestart: ""
 youtubeend: ""
-youtubemute: "1"
+youtubemute: ""
 youtubeloop: "1"
-youtubecontrols: "0"
+youtubecontrols: "1"
 audiostart: "0"
 audioend: ""
 youtubeshoworiginal: ""
@@ -29,9 +29,9 @@ youtubeautostart: "1"
 svgImage: /assets/null.svg
 svgzindex: ""
 ---
-<h2 style="font-size:150%">What are VidSocks?</h2>
-VidSocks are layered multimedia (including animation, cutouts, scenes, and video) crafted together to give the viewer a whole new sensory experience.
+<h2 style="font-size:150%">Hurrican Preparedness</h2>
+Getting prepared for a busy season means taking care of your roof today.
 
-Each VidSock is uniquely created by the artist and then delivered to the world for their art to be altered and changed by its viewers thus making each VidSock truly dynamic.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
 
-With each winning bid, you not only get to take home your new VidSock, but you will also get your very own copy of the VidSock NFT Marketing Platform™ to make and market your own VidSocks.
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

@@ -623,7 +623,7 @@ const svgUrl = frontmatter.svgImage.publicURL
 
         
 
-{/* <Controls
+<Controls
             ref={controlsRef}
             onSeek={handleSeekChange}
             onSeekMouseDown={handleSeekMouseDown}
@@ -647,7 +647,7 @@ const svgUrl = frontmatter.svgImage.publicURL
             volume={volume}
             onBookmark={addBookmark}
             style={{positon:'absolute', top:'0', zIndex:'900', display:'none'}}
-          /> */}
+          />
 
 
 
