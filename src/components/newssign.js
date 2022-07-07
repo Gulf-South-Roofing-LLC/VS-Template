@@ -54,9 +54,9 @@ const NewsletterPage = () => (
 
 
             
-              <div className="txtshadow specialfont" style={{fontSize:'120%', textAlign:'center', margin:'10px auto'}}><strong>Does your roof look like this?</strong></div>
+              <div className="txtshadow specialfont" style={{fontSize:'120%', textAlign:'center', margin:'10px auto'}}><strong>We can help  - Get Started</strong></div>
               <br />
-              <span className="txtshadow" style={{fontSize:'95%'}}>We can help you today!</span>
+              <span className="txtshadow" style={{fontSize:'95%'}}>enter your email address:</span>
 
              <div className="signbox" style={{display:'flex', gap:'10px', alignContent:'center',}}>
              
@@ -80,7 +80,7 @@ const NewsletterPage = () => (
               type="submit"
               style={{marginTop:'', fontSize:'clamp(1rem, 1.5vw, 1.5rem)', whiteSpace:'nowrap'}}
             >
-             Contact Me!&nbsp;{" "}
+             Contact Me&nbsp;{" "}
               <span className="icon -right">
                 <RiSendPlane2Line />
               </span>

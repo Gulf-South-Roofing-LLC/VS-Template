@@ -23,7 +23,7 @@ import { useSiteMetadata } from "../hooks/use-site-metadata"
 // import BackgroundImage from 'gatsby-background-image'
 // import Panel1 from "../components/panel1"
 // import Panel2 from "../pages/shawshank-trailer"
-
+import SVGIntro from "../../static/assets/roof-intro.svg"
 
 
 // import TimeAgo from 'react-timeago'
@@ -214,7 +214,8 @@ const HomePage = ({ data }) => {
 
 
     function AddSvg(){
-      const svgUrl = "../assets/" + frontmatter.svgImage.relativePath + ""
+      const svgUrl = frontmatter.svgImage.publicURL
+      // const svgUrl = "../assets/" + frontmatter.svgImage.relativePath + ""
       return (
         <object title="Animation: Milky Way rotating over Todd Lambert while he is camping in front of a campfire" className={svgZindex + " " + svgZindex} id="svg1" data={svgUrl} type="image/svg+xml" style={{position:'absolute', bottom:'0', left:'0', right:'0', top:'0', overflow:'hidden', display:'block', border:'2px solid red', zIndex:'', width:'100vw', height:'100vh',  }} alt="Animation: Milky Way rotating over Todd Lambert while he is camping in front of a campfire" ></object>
       )
@@ -275,6 +276,9 @@ function Iframer() {
 
   const Url = "https://www.youtube.com/embed/" + frontmatter.youtuber + "?controls=" + frontmatter.youtubecontrols + "&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;start=" + frontmatter.youtubestart + "&amp;end=" + frontmatter.youtubeend + "&amp;loop=1&amp;mute=" + frontmatter.youtubemute + "&amp;playsinline=1&amp;playlist=" + frontmatter.youtuber + ""
   return (
+
+
+    
     <ReactPlayer
     className='react-player66'
     url={Url}
@@ -290,7 +294,7 @@ function Iframer() {
 
     config={{
       youtube: {
-        playerVars: { showinfo:1, autoplay:YouTubeAutostart, controls:YouTubeControls, start:YouTubeStart, end:YouTubeEnd, mute:YouTubeMute  }
+        playerVars: { showinfo:0, autoplay:YouTubeAutostart, controls:YouTubeControls, start:YouTubeStart, end:YouTubeEnd, mute:YouTubeMute  }
       },
     }}
     loop
@@ -312,6 +316,9 @@ function Iframer() {
       </button>}
         light="../assets/header.webp"
     />
+
+    
+
   )
 }
 
@@ -447,6 +454,13 @@ function Iframer() {
 </div> */}
 
 
+
+
+{/* <object title="" className={svgZindex + " " + svgZindex} id="svg1" data={SVGIntro} type="image/svg+xml" style={{position:'absolute', bottom:'0', left:'0', right:'0', top:'0', overflow:'hidden', display:'block', border:'2px solid red', zIndex:'34', width:'100vw', height:'100vh',  }} alt="Animation:" ></object> */}
+
+
+
+
 <ReactPlayer
             ref={playerRef}
             width="100%"
@@ -466,7 +480,7 @@ function Iframer() {
                 },
               },
               youtube: {
-                playerVars: { showinfo:0, autoplay:1, controls:0, start:732, end:2000, mute:1  }
+                playerVars: { showinfo:0, autoplay:1, controls:0, start:1080, end:1110, mute:1  }
               },
             }}
 
@@ -499,6 +513,7 @@ function Iframer() {
 
 
 
+
   {Image ? (
   // <GatsbyImage
   //             image={Image}
@@ -508,6 +523,9 @@ function Iframer() {
   //             style={{height:'100vh', width:'100vw', maxHeight:'', position:'absolute', top:'0', zIndex:'', objectFit:'cover', overflow:'', backgroundSize:'cover', border:'0px solid red !important', background:'#111', aspectRatio:'none'}}
   //           />
 
+
+
+  
   <GatsbyImage
               image={Image}
               alt={frontmatter.title + " - Featured image"}
@@ -520,6 +538,7 @@ function Iframer() {
           )}
 
         
+
             <div style={{display:'grid', placeContent:'center', fontWeight:'bold', padding:'50% 0 0 0', fontSize:'clamp(2rem, 3.5vw, 3.8rem)', textShadow:'2px 2px 0 #111', width:'100%', position:'absolute', zIndex:'2', top:'', height:'100%', border:'1px solid transparent', color:''}}>Learn more
 
     <ImPlay style={{margin:'0 auto', width:'50%', fontSize:'60px'}} /></div>
@@ -530,7 +549,7 @@ function Iframer() {
         //  light="../assets/transparent.png"
           />
           
-
+          
 
 
           {/* <div style={{position:'absolute', width:'100vw', height:'100vh', top:'5px', margin:'0', zIndex:'-1', display:'flex', justifyContent:'center', background:'transparent !important',}}>
@@ -594,8 +613,13 @@ function Iframer() {
 
 
 
+<SVGIntro style={{position:'absolute', bottom:'0', left:'0', right:'0', top:'0', overflow:'hidden', display:'block', border:'0', zIndex:'2', width:'100vw', height:'100vh',  }} alt="Animation:" />
 
 
+<div style={{display:'grid', position:'absolute', zIndex:'3', width:'50vw', height:'', top:'20%', justifyContent:'center', margin:'0 auto', padding:' 0', textAlign:'', borderRadius:'12px', border:'0px solid red'}}>
+  <Newsignup />
+  <br />
+  </div>
 
           
           </div>

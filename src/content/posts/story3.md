@@ -23,7 +23,7 @@ comments: ""
 shareable: ""
 underlayImage: /assets/transparent.png
 featuredImage: /assets/roof-example2.jpg
-svgImage: /assets/null.svg
+svgImage: /assets/loader.svg
 nftlink: ""
 nftdrop: ""
 nftredeem: ""
