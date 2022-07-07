@@ -4,7 +4,7 @@ title: Our Certifications
 slug: /certifications
 date: 2021-08-12 10:43
 description: Learn More About The VidSock Platform
-youtuber: "https://youtu.be/ELwIDDplDgo"
+youtuber: "https://youtu.be/dLX8_kMOkA8"
 youtuber2: ""
 youtubeshoworiginal: ""
 youtubersuggestion1: ""
@@ -22,7 +22,7 @@ svgzindex: "0"
 comments: ""
 shareable: "1"
 underlayImage: /assets/transparent.png
-featuredImage: /assets/roof-example2.jpg
+featuredImage: /assets/trust-symbols.jpg
 svgImage: /assets/null.svg
 nftlink: ""
 nftdrop: ""
