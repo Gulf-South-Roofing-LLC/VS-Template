@@ -485,16 +485,16 @@ const svgUrl = frontmatter.svgImage.publicURL
   };
 
   const handleProgress = (changeState) => {
-    if (count > 3) {
-      controlsRef.current.style.visibility = "visible";
-      count = 0;
-    }
-    if (controlsRef.current.style.visibility === "visible") {
-      count += 1;
-    }
-    if (!state.seeking) {
-      setState({ ...state, ...changeState });
-    }
+    // if (count > 3) {
+    //   controlsRef.current.style.visibility = "visible";
+    //   count = 0;
+    // }
+    // if (controlsRef.current.style.visibility === "visible") {
+    //   count += 1;
+    // }
+    // if (!state.seeking) {
+    //   setState({ ...state, ...changeState });
+    // }
   };
 
   const handleSeekChange = (e, newValue) => {
