@@ -616,10 +616,10 @@ function Iframer() {
 <SVGIntro style={{position:'absolute', bottom:'0', left:'0', right:'0', top:'0', overflow:'hidden', display:'block', border:'0', zIndex:'2', width:'100vw', height:'100vh',  }} alt="Animation:" />
 
 
-<div style={{display:'grid', position:'absolute', zIndex:'3', width:'50vw', height:'', top:'20%', justifyContent:'center', margin:'0 auto', padding:' 0', textAlign:'', borderRadius:'12px', border:'0px solid red'}}>
+{/* <div style={{display:'grid', position:'absolute', zIndex:'3', width:'50vw', height:'', top:'20%', justifyContent:'center', margin:'0 auto', padding:' 0', textAlign:'', borderRadius:'12px', border:'0px solid red'}}>
   <Newsignup />
   <br />
-  </div>
+  </div> */}
 
           
           </div>
@@ -1241,6 +1241,9 @@ By Appointment
     <br />
 <br />
 <a class="call-button btn" style={{fontSize:'200%'}} href="tel:2282311630">(228) 231-1630</a>
+<br />
+
+
 
 {/* <a class="call-button btn" href="tel:2282311630">Local: (228) 231-1630</a>
 
